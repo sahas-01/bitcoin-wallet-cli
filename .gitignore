@@ -1,4 +1,5 @@
 **/.DS_Store
+.env
 *-debug.log
 *-debug.log
 *-error.log
@@ -17,3 +18,4 @@ node_modules
 node_modules
 oclif.lock
 oclif.manifest.json
+.env
