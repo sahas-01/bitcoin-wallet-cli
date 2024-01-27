@@ -19,6 +19,12 @@ To build a CLI using nodejs with the following functionalities:
 6. Generating an unused bitcoin address for a wallet ✅
 
 
+### Steps to install the project:
+ ```bash
+git clone https://github.com/sahas-01/bitcoin-wallet-cli.git
+cd bitcoin-wallet-cli
+```
+
 oclif example BTC Wallet CLI
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
