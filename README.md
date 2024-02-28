@@ -1,18 +1,34 @@
-oclif-hello-world
+oclif-btc-wallet
 =================
 
-oclif example Hello World CLI
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![GitHub license](https://img.shields.io/github/license/oclif/hello-world)](https://github.com/oclif/hello-world/blob/main/LICENSE)
+## Requirements:
+
+To build a CLI using nodejs with the following functionalities:
+
+1. Creating a wallet (BIP39 Wallet) ✅
+
+2. Importing a wallet (from BIP39 Mnemonic) ✅
+
+3. Listing all wallets present in storage ✅
+
+4. Getting bitcoin balance of a wallet ✅
+
+5. Getting the list of bitcoin transactions of a wallet ✅
+
+6. Generating an unused bitcoin address for a wallet ✅
+
+
+### Steps to install the project:
+ ```bash
+git clone https://github.com/sahas-01/bitcoin-wallet-cli.git
+cd bitcoin-wallet-cli
+```
 
 <!-- toc -->
 * [Usage](#usage)
 * [Commands](#commands)
-<!-- tocstop -->
-* [Usage](#usage)
-* [Commands](#commands)
+
 <!-- tocstop -->
 # Usage
 <!-- usage -->
@@ -23,22 +39,8 @@ running command...
 $ btc-wallet (--version)
 btc-wallet/0.0.0 win32-x64 node-v18.18.2
 $ btc-wallet --help [COMMAND]
-USAGE
-  $ btc-wallet COMMAND
-...
 ```
-<!-- usagestop -->
-```sh-session
-$ npm install -g oclif-hello-world
-$ oex COMMAND
-running command...
-$ oex (--version)
-oclif-hello-world/0.0.0 darwin-x64 node-v16.13.1
-$ oex --help [COMMAND]
-USAGE
-  $ oex COMMAND
-...
-```
+
 <!-- usagestop -->
 # Commands
 <!-- commands -->
